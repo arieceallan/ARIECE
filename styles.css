@@ -1,0 +1,188 @@
+/*********************************** TAG SELECTOR **********************************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #f8f5f1;
+}
+
+h1 {
+  color: #1b2021;
+ margin: 30px auto 1px auto;
+ font-family: 'Sacramento', cursive;
+ font-size: 7rem;
+ line-height: 1;
+
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #046582;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffa45b;
+  }
+
+a {
+  color: #11999E;
+
+
+}
+/*********************************** images**********************************************************/
+.mountain {
+  position: relative;
+    width: 200px;
+    left: 600px;
+    bottom: 10px;
+}
+
+.pirate {
+  color: #11999E;
+  font-weight: normal;
+  position: relative;
+  bottom: 35px;
+}
+
+.imagesize {
+  height: 230px;
+  width: 230px;
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+}
+
+.hell {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #046582;
+  position: relative;
+  bottom: 100px;
+}
+.hell2 {
+  position: relative;
+  bottom: 90px;
+}
+
+
+.sanjiimage {
+    width: 190px;
+    float: left;
+    margin-right: 30px;
+}
+
+.musicimage{
+    width: 280px;
+    float: right;
+  margin-left: 0;
+
+}
+.luffy {
+  width: 280px;
+  margin-bottom: 40px;
+  position: relative;
+  right: 18%;
+}
+
+.nami-image {
+  display: inline-block;
+  position: absolute;
+  width: 180px;
+  margin: 145px auto auto 140px;
+}
+
+
+.pir {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  width: 140px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.bottom-cloud {
+  width: 65px;
+    position: absolute;
+    margin-top: 0;
+    left: 300px;
+}
+
+
+
+.topcontainer {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: #f8f5f1;
+  padding-top: 100px;
+  position: relative;
+  background-image: url(https://images6.alphacoders.com/911/911401.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middlecontainer {
+}
+
+.bottomcontainer {
+}
+
+.skill-row {
+  margin: 100px auto 140px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+}
+
+
+
+
+.DIE-BUTTON {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #3833CA;
+   font-family: Brush Script MT;
+   font-size: 250px;
+   font-weight: 700;
+   padding: 5px 30px;
+   border-color-hover: ;
+   border-style-hover: solid;
+   border-width-hover: 1;
+   -webkit-box-shadow: 1px 1px 20px 0 #0070FF;
+   -moz-box-shadow: 1px 1px 20px 0 #0070FF;
+   box-shadow: 1px 1px 20px 0 #0070FF;
+   text-shadow: 1px 1px 20px #FE1B1B;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 100px;
+   width: 50%;
+}
+
+.DIE-BUTTON:hover {
+   background: #3260E9;
+   background-image: -webkit-linear-gradient(top, #3260E9, #3D94F6);
+   background-image: -moz-linear-gradient(top, #3260E9, #3D94F6);
+   background-image: -ms-linear-gradient(top, #3260E9, #3D94F6);
+   background-image: -o-linear-gradient(top, #3260E9, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #3260E9, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
