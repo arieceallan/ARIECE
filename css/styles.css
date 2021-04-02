@@ -36,8 +36,7 @@ a {
 /*********************************** images**********************************************************/
 .mountain {
   position: relative;
-    width: 200px;
-    left: 600px;
+    width: 150px;
     bottom: 10px;
 }
 
@@ -83,16 +82,15 @@ a {
 }
 .luffy {
   width: 280px;
-  margin-bottom: 40px;
   position: relative;
-  right: 18%;
+
 }
 
 .nami-image {
   display: inline-block;
   position: absolute;
   width: 180px;
-  margin: 145px auto auto 140px;
+  margin: 130px auto auto 40px;
 }
 
 
@@ -119,8 +117,8 @@ a {
 .topcontainer {
   margin-top: 1px;
   margin-bottom: 1px;
-  background-color: #f8f5f1;
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   position: relative;
   background-image: url(https://images6.alphacoders.com/911/911401.jpg);
   background-repeat: no-repeat;
@@ -128,9 +126,11 @@ a {
 }
 
 .middlecontainer {
+  margin: 1px;
 }
 
 .bottomcontainer {
+    margin: 1px;
 }
 
 .skill-row {
