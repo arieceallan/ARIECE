@@ -115,14 +115,15 @@ a {
 
 
 .topcontainer {
+  height: 350px;
   margin-top: 1px;
   margin-bottom: 1px;
   padding-top: 150px;
-  padding-bottom: 100px;
   position: relative;
   background-image: url(https://images6.alphacoders.com/911/911401.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .middlecontainer {
