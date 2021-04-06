@@ -4,41 +4,56 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   background-color: #f8f5f1;
+  color: #40514E;
 }
 
 h1 {
   color: #1b2021;
- margin: 30px auto 1px auto;
- font-family: 'Sacramento', cursive;
- font-size: 7rem;
- line-height: 1;
-
+  margin: 30px auto 1px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  line-height: 1;
 }
-
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #046582;
-
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #ffa45b;
-  }
+  font-size: 25px;
+}
 
 a {
-  color: #11999E;
-
-
+  color: #233057;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 23px;
 }
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted;
+  border-color: #40514E;
+  border-bottom: none;
+  border-width: 6px;
+  width: 6%;
+  margin: 35px auto 100px auto;
+}
+
 /*********************************** images**********************************************************/
 .mountain {
   position: relative;
-    width: 200px;
-    left: 600px;
-    bottom: 10px;
+  width: 150px;
+  bottom: 10px;
 }
 
 .pirate {
@@ -58,43 +73,35 @@ a {
 
 .hell {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #046582;
   position: relative;
-  bottom: 100px;
+  bottom: 70px;
 }
+
 .hell2 {
   position: relative;
-  bottom: 90px;
+  bottom: 50px;
+  width: 50%;
+  margin: auto;
 }
-
 
 .sanjiimage {
-    width: 190px;
-    float: left;
-    margin-right: 30px;
+  width: 190px;
+  float: left;
+  margin-right: 30px;
 }
 
-.musicimage{
-    width: 280px;
-    float: right;
+.musicimage {
+  width: 280px;
+  float: right;
   margin-left: 0;
-
 }
+
 .luffy {
   width: 280px;
-  margin-bottom: 40px;
   position: relative;
-  right: 18%;
 }
-
-.nami-image {
-  display: inline-block;
-  position: absolute;
-  width: 180px;
-  margin: 135px auto auto 100px;
-}
-
 
 .pir {
   text-decoration: underline;
@@ -102,25 +109,23 @@ a {
 
 .top-cloud {
   width: 140px;
-    position: absolute;
-    right: 100px;
-    top: 20px;
+  position: absolute;
+  right: 100px;
+  top: 20px;
 }
 
 .bottom-cloud {
   width: 65px;
-    position: absolute;
-    margin-top: 0;
-    left: 300px;
+  position: absolute;
+  margin-top: 0;
+  left: 300px;
 }
 
-
-
 .topcontainer {
+  height: 350px;
   margin-top: 1px;
   margin-bottom: 1px;
-  background-color: #f8f5f1;
-  padding-top: 100px;
+  padding-top: 150px;
   position: relative;
   background-image: url(https://images6.alphacoders.com/911/911401.jpg);
   background-repeat: no-repeat;
@@ -128,9 +133,12 @@ a {
 }
 
 .middlecontainer {
+  margin: 1px;
 }
 
-.bottomcontainer {
+.bottom-container {
+  background-color: #5671c2;
+  padding: 40px 0 13px;
 }
 
 .skill-row {
@@ -140,49 +148,58 @@ a {
   text-align: left;
 }
 
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
 
-
+.copyright {
+  color: #EAF6F6;
+  font-size: 1.1rem;
+  padding: 15px 0 12px;
+}
 
 .DIE-BUTTON {
-   background: #3D94F6;
-   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #3833CA;
-   font-family: Brush Script MT;
-   font-size: 250px;
-   font-weight: 700;
-   padding: 5px 30px;
-   border-color-hover: ;
-   border-style-hover: solid;
-   border-width-hover: 1;
-   -webkit-box-shadow: 1px 1px 20px 0 #0070FF;
-   -moz-box-shadow: 1px 1px 20px 0 #0070FF;
-   box-shadow: 1px 1px 20px 0 #0070FF;
-   text-shadow: 1px 1px 20px #FE1B1B;
-   border: solid #337FED 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin-bottom: 100px;
-   width: 50%;
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
 .DIE-BUTTON:hover {
-   background: #3260E9;
-   background-image: -webkit-linear-gradient(top, #3260E9, #3D94F6);
-   background-image: -moz-linear-gradient(top, #3260E9, #3D94F6);
-   background-image: -ms-linear-gradient(top, #3260E9, #3D94F6);
-   background-image: -o-linear-gradient(top, #3260E9, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #3260E9, #3D94F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+}
+
+a:link {
+  color: #233057;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #233057;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3D94F6;
+  background-color: transparent;
+  text-decoration: inherit;
 }
